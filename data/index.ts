@@ -1,14 +1,15 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Certifications", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "From theory to practice, ready to turn challenges into effective solutions!",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Driven, proactive, and team-oriented!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Inspired by innovation and committed to operational excellence!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +50,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title:
+      "Bayesian networks for evaluating the energy performance of ships and port systems",
+    description: "Polytech R&D Project",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Let’s discuss my final-year internship. Send me an email!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,130 +74,151 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Rayociné – Movie Ticket Booking Web App",
+    des: "Full-stack web app allowing users to search for movies, select seats, and securely manage online payments.",
+    img: "/rayocini.png", // ajoute une image de ton projet
+    iconLists: [
+      "/java.png",
+      "/jee.png",
+      "/jpa.png",
+      "/mysql.png",
+      "/wildfly.png  ",
+    ], // icônes des technos
+    link: "/video1.mp4", // lien vers le projet ou démo
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Dawini Mobile App – Teleconsultation",
+    des: "Mobile app for teleconsultation, featuring video calls, a medical chatbot, and secure prescriptions with electronic signature.",
+    img: "/dawini.png", // ajoute un screenshot ou illustration du projet
+    iconLists: [
+      "/flutter.png",
+      "/firebase.png",
+      "/agora.png",
+      "/dsa.png",
+      "/botpress.png",
+    ], // logos des technologies
+    link: "/0505.mp4", // lien vers démo ou projet
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Mobile App – RNE",
+    des: "mobile app to manage services already available on the RNE website, providing an intuitive interface and seamless integration with the backend.",
+    duration: "06/2024 – 07/2024",
+    role: "Intern",
+    img: "/rne.png", // ajouter une illustration ou screenshot
+    iconLists: ["/flutter.png", "/springboot.png", "/oracle.png"], // logos des technologies
+    link: "/demo.mp4", // lien vers projet ou démo si disponible
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Wedding Planner Web App",
+    des: "full-stack web app to help users plan and organize weddings efficiently, including guest management, event scheduling, and vendor coordination.",
+    duration: "06/2024 – 08/2024", // adapter selon les dates
+    role: "Developer",
+    img: "/wedding.png", // screenshot ou illustration
+    iconLists: [
+      "/angular.png",
+      "/mongodb.png",
+      "/nodejs.png",
+      "/express.png",
+    ], // technologies principales
+    link: "/weddingplanner.mp4", // lien vers le projet ou démo si disponible
+  },
+];
+export const testimonials = [
+  {
+    quote: "Foundation of Cybersecurity - Google",
+    name: "",
+    title: "",
+    img: "/1.png",
+  },
+  {
+    quote: "AWS Cloud Technology and Services Concepts - datacamp",
+    name: "",
+    title: "",
+    img: "/2.png",
+  },
+  {
+    quote: "Understanding Cloud Computing - datacamp",
+    name: "",
+    title: "",
+    img: "/3.png",
+  },
+  {
+    quote: "AWS Security and Cost Management Concepts - datacamp",
+    name: "",
+    title: "",
+    img: "/4.png",
+  },
+  {
+    quote: "CCNA : Introduction to Networks course - Cisco Academy",
+    name: "",
+    title: "",
+    img: "/5.png",
+  },
+  {
+    quote: "AI Foundation - Simplilearn",
+    name: "",
+    title: "",
+    img: "/6.png",
+  },
+  {
+    quote: "CCNA : Introduction to Networks - Cisco Academy",
+    name: "",
+    title: "",
+    img: "/7.png",
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "",
+    img: "/angular.g", // logo technologie
+    nameImg: "", // nom sous le logo (optionnel)
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "",
+    img: "/mongodb.g",
+    nameImg: "/mongodbName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "",
+    img: "/nodejs.psvg",
+    nameImg: "/nodejsName.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    name: "",
+    img: "/flutter.svg",
+    nameImg: "/flutterName.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "",
+    img: "",
+    nameImg: "",
   },
 ];
+
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Intern at National Business Register June 2025 – August 2025",
+    desc: "Developed a mobile application to manage and provide access to the services available on the RNE website. The app features a Flutter front-end, a Spring Boot back-end, and an Oracle database for secure and efficient data management",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
+
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Intern at E-Tafakna June 2025 – July 2025",
+    desc: "Developed a full-stack web application to display detailed information about employers. Built with a React front-end, Node.js and Express back-end, integrating APIs for data management, and MongoDB for the database",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +228,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/rihabtaboubi1",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/gmail.png",
+    link: "mailto:riheb.taboubi@etu.univ-nantes.fr",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/rihab-taboubi-86941a317",
   },
 ];

@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    img?:string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -113,21 +114,25 @@ export const InfiniteMovingCards = ({
               <span className=" relative z-20 text-sm md:text-lg leading-[1.6] text-white font-normal">
                 {item.quote}
               </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                {/* add this div for the profile img */}
-                <div className="me-3">
-                  <img src="/profile.svg" alt="profile" />
-                </div>
-                <span className="flex flex-col gap-1">
-                  {/* change text color, font-normal to font-bold, text-xl */}
-                  <span className="text-xl font-bold leading-[1.6] text-white">
-                    {item.name}
-                  </span>
-                  {/* change text color */}
-                  <span className=" text-sm leading-[1.6] text-white-200 font-normal">
-                    {item.title}
-                  </span>
-                </span>
+              <div className="flex flex-col items-center">
+                {item.img && (
+                  <div className="mb-4 w-full flex justify-center">
+                    <img
+                      src={item.img}
+                      alt={item.name}
+                      className="w-64 md:w-80 lg:w-96 h-auto rounded-lg shadow-lg"
+                    />
+                  </div>
+                )}
+                <h3 className="text-xl md:text-2xl font-bold text-white text-center">
+                  {item.name}
+                </h3>
+                <p className="text-sm md:text-lg text-gray-300 text-center">
+                  {item.title}
+                </p>
+                {item.quote && (
+                  <p className="text-white text-center mt-2">{item.quote}</p>
+                )}
               </div>
             </blockquote>
           </li>
