@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import "./globals.css";
+// Force dynamic rendering for the whole app to avoid prerender-time access to
+// browser globals (document/window) from third-party code during build.
+export const dynamic = "force-dynamic";
 import { ThemeProvider } from "./provider";
 
 const inter = Inter({ subsets: ["latin"] });
