@@ -1,5 +1,9 @@
 "use client";
 
+// Force dynamic rendering to avoid static prerender which may execute
+// server-side code that expects browser globals (document/window).
+export const dynamic = "force-dynamic";
+
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
