@@ -42,6 +42,13 @@ const Hero = () => {
             position="right"
           />
         </a>
+        <a href="/Lettre de motivation.pdf" download>
+          <MagicButton
+            title="Motivation Letter"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
       </div>
     </div>
   );
