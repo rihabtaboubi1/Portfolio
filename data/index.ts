@@ -84,7 +84,7 @@ export const projects = [
       "/mysql.png",
       "/wildfly.png  ",
     ], // icônes des technos
-    link: "/video1.mp4", // lien vers le projet ou démo
+    link: "https://drive.google.com/file/d/1Zn5iD3GESPNqtVPIn1hyHHZL1Xhz3j6H/view?usp=sharing", // lien vers le projet ou démo
   },
   {
     id: 2,
@@ -98,7 +98,7 @@ export const projects = [
       "/dsa.png",
       "/botpress.png",
     ], // logos des technologies
-    link: "/0505.mp4", // lien vers démo ou projet
+    link: "https://drive.google.com/file/d/1tWWMql_73d1qxsMIoiqXIXYDU5fzRDJo/view?usp=sharing", // lien vers démo ou projet
   },
   {
     id: 3,
@@ -108,7 +108,7 @@ export const projects = [
     role: "Intern",
     img: "/rne.png", // ajouter une illustration ou screenshot
     iconLists: ["/flutter.png", "/springboot.png", "/oracle.png"], // logos des technologies
-    link: "/demo.mp4", // lien vers projet ou démo si disponible
+    link: "https://drive.google.com/file/d/1CbkUaTfSKGW-eFVm4QiYjZT4hlLKOGwa/view?usp=sharing", // lien vers projet ou démo si disponible
   },
   {
     id: 4,
