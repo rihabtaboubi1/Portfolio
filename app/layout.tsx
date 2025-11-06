@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
+// Force dynamic rendering to avoid prerender-time access to browser globals
+export const dynamic = "force-dynamic";
+
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
