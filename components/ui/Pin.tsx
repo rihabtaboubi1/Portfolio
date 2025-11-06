@@ -13,6 +13,7 @@ interface PinContainerProps {
   rel?: string;
   className?: string;
   containerClassName?: string;
+  onClick?: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
 }
 
 export const PinContainer: React.FC<PinContainerProps> = ({
@@ -23,6 +24,7 @@ export const PinContainer: React.FC<PinContainerProps> = ({
   rel,
   className,
   containerClassName,
+  onClick,
 }) => {
   const [transform, setTransform] = useState(
     "translate(-50%,-50%) rotateX(0deg)"
@@ -43,6 +45,7 @@ export const PinContainer: React.FC<PinContainerProps> = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onClick={onClick}
     >
       <div
         style={{

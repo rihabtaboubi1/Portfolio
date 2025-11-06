@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Certifications", link: "#testimonials" },
+  { name: "Certifications", link: "#certifications" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -126,7 +126,7 @@ export const projects = [
     link: "/weddingplanner.mp4", // lien vers le projet ou démo si disponible
   },
 ];
-export const testimonials = [
+export const Certifications = [
   {
     quote: "Foundation of Cybersecurity - Google",
     name: "",
