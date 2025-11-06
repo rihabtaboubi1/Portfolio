@@ -32,14 +32,13 @@ const Footer = () => {
           let’s get in touch
         </p>
 
-        {/* Bouton principal pour ouvrir le modal */}
-        <button onClick={() => setShowModal(true)}>
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </button>
+        {/* MagicButton directement avec handleClick */}
+        <MagicButton
+          title="Let's get in touch"
+          icon={<FaLocationArrow />}
+          position="right"
+          handleClick={() => setShowModal(true)}
+        />
       </div>
 
       {/* Modal stylé pour le téléphone */}

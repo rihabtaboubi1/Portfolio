@@ -34,7 +34,7 @@ const Hero = () => {
           className="text-white text-[28px] md:text-4xl lg:text-5xl font-semibold mb-6"
         />
 
-        <a href="#about">
+     
           <a href="/Rihab TABOUBI_cv.pdf" download>
             <MagicButton
               title="My CV"
@@ -42,7 +42,7 @@ const Hero = () => {
               position="right"
             />
           </a>
-        </a>
+        
       </div>
     </div>
   );
