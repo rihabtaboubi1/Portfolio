@@ -1,3 +1,4 @@
+"use client";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -34,15 +35,13 @@ const Hero = () => {
           className="text-white text-[28px] md:text-4xl lg:text-5xl font-semibold mb-6"
         />
 
-     
-          <a href="/Rihab TABOUBI_cv.pdf" download>
-            <MagicButton
-              title="My CV"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
-        
+        <a href="/Rihab TABOUBI_cv.pdf" download>
+          <MagicButton
+            title="My CV"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
       </div>
     </div>
   );

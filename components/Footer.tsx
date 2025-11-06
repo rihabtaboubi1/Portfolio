@@ -1,3 +1,4 @@
+"use client";
 import { useState } from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
