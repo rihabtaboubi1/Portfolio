@@ -117,13 +117,8 @@ export const projects = [
     duration: "06/2024 – 08/2024", // adapter selon les dates
     role: "Developer",
     img: "/wedding.png", // screenshot ou illustration
-    iconLists: [
-      "/angular.png",
-      "/mongodb.png",
-      "/nodejs.png",
-      "/express.png",
-    ], // technologies principales
-    link: "https://drive.google.com/uc?export=preview&id=1No33du-OKjuefuJKKZWIIigXjqI3_3nX", // lien vers le projet ou démo si disponible
+    iconLists: ["/angular.png", "/mongodb.png", "/nodejs.png", "/express.png"], // technologies principales
+    link: "https://drive.google.com/file/d/1No33du-OKjuefuJKKZWIIigXjqI3_3nX/view?usp=sharing", // lien vers le projet ou démo si disponible
   },
 ];
 export const Certifications = [
