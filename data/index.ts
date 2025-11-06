@@ -123,7 +123,7 @@ export const projects = [
       "/nodejs.png",
       "/express.png",
     ], // technologies principales
-    link: "/weddingplanner.mp4", // lien vers le projet ou démo si disponible
+    link: "https://drive.google.com/uc?export=preview&id=1No33du-OKjuefuJKKZWIIigXjqI3_3nX", // lien vers le projet ou démo si disponible
   },
 ];
 export const Certifications = [
